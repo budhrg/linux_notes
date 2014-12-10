@@ -55,3 +55,12 @@ sudo usermod -G <group_name> <user_name>
 15. Delete user from group:
 sudo deluser <user_name> <group_name>
 
+16. To show the last time each user logged into the system:
+last
+
+17. To enable 'Password Aging'(password expires after certain interval):
+sudo chage <username>
+
+* To list info of user's password aging: sudo chage --list <username>
+
+18.
